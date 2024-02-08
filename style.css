@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 3px solid red;
+    height: 100vh;
+    /* width: 100vw; */
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.card img{
+    width: 60%;
+    height: 60%;
+    
+}
+.info{
+    border: 3px solid blue;
+    margin-left: 1.5rem;
+  
+}
+.productName{
+    border: 2px solid orange;
+
+}
+.name{
+    border: solid green;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+
+}
+.name span{
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.name h1{
+    font-family: 'Poppins', sans-serif;
+   display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-right: 1rem;
+}
+.name h1 span{
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.description{
+    border: solid rebeccapurple;
+    font-family:'Poppins', sans-serif;
+    width: 50%; 
+}
+.description p{
+    font-weight: 300;
+}
+.description h3{
+    font-weight: 600;
+}
+.storage-description{
+    border: 2px solid fuchsia;
+    
+}
+.storage-description h3{
+    border: 2px solid olive;
+    font-weight: 600;
+}
+.storage-description span{
+    border: 2px solid red;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #EEEEEE;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    line-height: 38px;
+    
+    
+}
